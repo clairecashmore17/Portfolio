@@ -1,0 +1,9 @@
+[
+    {
+        "id": "1",
+        "projectName": "fillername",
+        "tech": "C++, C#",
+        "deployment": "https://example.com",
+        "github": "https://example.com"
+    }
+]

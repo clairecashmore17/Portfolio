@@ -1,19 +1,26 @@
 import React from 'react';
-import { CustomPlaceholder } from 'react-placeholder-image';
+import { generateCustomPlaceholderURL } from 'react-placeholder-image';
 
 const Project = (props) => {
-    const placeholder = <CustomPlaceholder width={200} height={200}/>;
+    const imagePlaceholder = generateCustomPlaceholderURL(200, 200);
 
     return (
         <article className="project">
             <a target="_blank" 
-            rel="norefferer" 
+            rel="noreferrer" 
             href={props.deployment}
             >
-                <img className="project-img" src={placeholder} alt={props.projectName} />
+                <img className="project-img" src={imagePlaceholder} alt={props.projectName} />
                 <h3>{props.projectName}</h3>
             </a>
-            <h4><a className="repoLink">Code here</a></h4>
+            <h4>
+                <a target="_blank"
+                rel="noreferrer" 
+                className="repoLink" 
+                href={props.github}>
+                    Code here
+                </a>
+            </h4>
             <p className="projectTech">{props.tech}</p>
         </article>
     );

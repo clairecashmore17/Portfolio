@@ -1,8 +1,20 @@
 import React from 'react';
+import Project from '../Projects';
+import projects from './projects.json';
 
 const Portfolio = () => {
     return (
-        <h2 className="title">Portfolio</h2>
+        <section id="portfolio">
+            <h2 className="title">Portfolio</h2>
+            {projects.map((projects) => (
+                <Project
+                    projectName = {projects.projectName}
+                    tech = {projects.tech}
+                    deployment = {projects.deployment}
+                    github = {projects.github}
+                />
+            ))}
+        </section>
     );
 }
 
