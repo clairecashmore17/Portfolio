@@ -1,14 +1,14 @@
 # Portfolio
-#README 
+## README 
 
 For a portfolio, I would aim for a fairly simple layout. Classic about me section, a tab for my "games" and then a tab
 "projects", a tab for a resume, and a contact tab. The games would include the CS225 final project, snakegame, and ZombieGameCourse.
 
-Color Scheme:
+### Color Scheme:
 I tend to lean towards dark greys in my designs. But also dark royal purples seem to add a nice tone to things. I generally
 tend to avoid colored text unless used in a warning sense.
 
-About Me:
+### About Me:
 
 I am a recent graduate with B.S. in Computer Engineering from Embry Riddle Aeronautical University. I have played soccer for 18 years including 4 at a collegiate level. Being athletic is a huge part of my life despite my love for sitting behind a screen.
 
@@ -21,7 +21,7 @@ Experienced coursework such as Data Structures and Algorithms, Software Engineer
 Ready to take on the challenges the world has presented.
 
 
-Games:
+### Games:
 
 Zombie FPS: Still in progress
 
@@ -30,7 +30,7 @@ Snake Game (C++)
 Rooms (C++)
 
 
-Projects:
+### Projects:
 
 InsertInQueue
 
@@ -38,7 +38,7 @@ Traverse BinaryTree
 
 
 
-Resume Tab:
+### Resume Tab:
 
  
 
@@ -86,12 +86,10 @@ TWINE GAME DEVELOPMENT
 Creator of multiple “butterfly effect”, story-based games through the use of Twine. 
 
 
-Contact:
+### Contact:
 
 email: clairecashmore2017@gmail.com
 linkedin: https://www.linkedin.com/in/claire-cashmore/
 github: clairecashmore17
 instagram: claire_cashmore17
 twitter: @claire_cashmore
-
- 
