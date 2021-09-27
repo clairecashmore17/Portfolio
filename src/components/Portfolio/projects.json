@@ -1,9 +1,16 @@
 [
     {
         "id": "1",
-        "projectName": "fillername",
-        "tech": "C++, C#",
+        "projectName": "Insert In Queue",
+        "tech": "C",
         "deployment": "https://example.com",
-        "github": "https://example.com"
+        "github": "https://github.com/clairecashmore17/InsertInQueue.c"
+    },
+    {
+        "id": "2",
+        "projectName": "Traverse Binary Tree",
+        "tech": "C",
+        "deployment": "https://example.com",
+        "github": "https://github.com/clairecashmore17/TraverseBinaryTree"
     }
 ]
