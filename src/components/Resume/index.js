@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 import WorkHistory from '../WorkHistory';
 import Languages from '../Languages';
 import { MdFileDownload } from 'react-icons/md';
@@ -9,7 +10,13 @@ const Resume = () => {
             <h2 className="title">Resume</h2>
 
             <article className="resumeSection">
-                <p>Client summary statement/elevator pitch</p>
+                <p>Recently graduated with B.S. in Computer Engineering from Embry Riddle Aeronautical University, seeking a position in the software industry. Possess a large interest in the gaming and/or graphic development specifically.<br /><br />
+
+                Proficient with C/C++ but have worked with python, C#, and javascript. Always looking for a new opportunity to learn and become experienced in any language.<br /><br />
+
+                Experienced coursework such as Data Structures and Algorithms, Software Engineering Practices, Discrete Math Structures, and Microprocessors.<br /><br />
+
+                Ready to take on the challenges the world has presented.</p>
             </article>
 
             <a id="resumeDownload" download>
@@ -38,7 +45,7 @@ const Resume = () => {
                     />
 
                     <Languages name="python"
-                    imageLink="../images/javascript.png"
+                    imageLink="../images/python.png"
                     />
                 </div>
             </article>

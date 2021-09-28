@@ -1,8 +1,9 @@
 import React from 'react';
+import './style.scss'
 import { generateCustomPlaceholderURL } from 'react-placeholder-image';
 
 const About = () => {
-    const imagePlaceholder = generateCustomPlaceholderURL(200, 200);
+    const imagePlaceholder = generateCustomPlaceholderURL(400, 400);
 
     return (
         <section id="about">

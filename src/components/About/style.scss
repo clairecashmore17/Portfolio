@@ -1,2 +1,20 @@
 @import '../../variables';
 @import '../../mixins';
+
+#about {
+    @include sectionTopSpacing();
+}
+
+#about img {
+    float: left;
+}
+
+#about-me {
+    line-height: 1.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media screen {
+    
+}

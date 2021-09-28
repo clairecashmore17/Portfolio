@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 import Project from '../Projects';
 import projects from './projects.json';
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 import Icon from '../Icon';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FaLinkedinIn, FaTwitter, FaInstagram } from 'react-icons/fa';
