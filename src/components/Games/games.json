@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "projectName": "Snake",
+        "tech": "C++",
+        "deployment": "https://example.com",
+        "github": "https://github.com/clairecashmore17/SnakeGame"
+    },
+    {
+        "id": "2",
+        "projectName": "Rooms",
+        "tech": "C++",
+        "deployment": "https://example.com",
+        "github": "https://github.com/clairecashmore17/CS225"
+    },
+    {
+        "id": "2",
+        "projectName": "Zombie FPS",
+        "tech": "C#, Unity",
+        "deployment": "https://example.com",
+        "github": "https://github.com/clairecashmore17/ZombieGameCourse"
+    }
+]
