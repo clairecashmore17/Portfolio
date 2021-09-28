@@ -1,2 +1,44 @@
 @import '../../variables';
 @import '../../mixins';
+
+footer {
+    display: block;
+    bottom: 0;
+    width: 100%;
+    background-color: $themeDarkPurple;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+footer p {
+    color: $themePurpleNavy;
+}
+
+.footerLink {
+    color: $themePewterBlue;
+}
+
+#codeLink {
+    float: left;
+    margin-left: 50px;
+}
+
+#clientContact {
+    float: right;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    footer {
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #codeLink,
+    #clientContact {
+        float: none;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}

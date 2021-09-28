@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -20,7 +21,7 @@ const Footer = () => {
                 </a>
             </p>
 
-            <p id=""> 
+            <p id="clientContact"> 
                 Reach me at <a className="footerLink"
                 href="mailto:clairecashmore2017@gmail.com?subject=Mail from Portfolio">
                     clairecashmore2017@gmail.com

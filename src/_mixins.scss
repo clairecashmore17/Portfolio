@@ -1,0 +1,9 @@
+@mixin sectionTopSpacing {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@mixin setMarginPadding {
+    margin: 0;
+    padding: 0;
+}
