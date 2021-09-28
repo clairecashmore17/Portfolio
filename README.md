@@ -40,7 +40,8 @@ Traverse BinaryTree
 
 ### Resume Tab:
 
- 
+ Resume Summary:
+ I am a recent graduate from Embry Riddle Aeronautical University with a bachelors degree in Computer Engineering. I have worked closely with C and C++ programming, but have used python, C#, and javascript on personal projects. I partook in elective classes like software engineering, data structures and algorithms, and an online unity Udemy course in order to enhance my knowledge of software. I spent a large majority of my life balancing soccer with academics including a collegiate career of 4 years in college. It taught me multiple life skills including communication, leadership, organization, and teamwork. I am currently employed as a DoorDash driver and a SoccerShots coach. I also participated in multiple volunteer events with a group known as Girls for Good, leading to my own event called Flagstaff Walks Together in which people walked and participated in activities to raise money for the Family Food Center of Flagstaff. I will be attending George Washington Unviersity to recieve my masters in Computer Science witha  focus in graphics, animation, and multimedia.
 
 Skills & Abilities 
 
