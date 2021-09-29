@@ -2,7 +2,7 @@
 @import '../../mixins';
 
 #contact {
-    background-color: $themeRussianViolet;
+    @include setSectionBackground();
     @include sectionTopSpacing();
     color: $themePewterBlue;
 }
