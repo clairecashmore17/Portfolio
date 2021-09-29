@@ -1,2 +1,13 @@
 @import '../../variables';
 @import '../../mixins';
+
+#contact {
+    background-color: $themeRussianViolet;
+    @include sectionTopSpacing();
+    color: $themePewterBlue;
+}
+
+#contact h2 {
+    font-size: $sectionTitleSize;
+    padding-bottom: $sectionTitleSpacing;
+}

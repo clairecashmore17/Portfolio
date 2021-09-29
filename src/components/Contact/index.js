@@ -13,19 +13,19 @@ const Contact = () => {
             <ul className="contactList">
                 <Icon link="mailto:clairecashmore2017@gmail.com?subject=Mail from Portfolio"
                 text="clairecashmore2017@gmail.com"
-                ><HiOutlineMail /></Icon>
+                ><HiOutlineMail size={60} /></Icon>
                 <Icon link="https://www.linkedin.com/in/claire-cashmore/"
                 text="linkedin.com/claire-cashmore"
-                ><FaLinkedinIn /></Icon>
+                ><FaLinkedinIn size={60} /></Icon>
                 <Icon link="https://github.com/clairecashmore17"
                 text="github.com/clairecashmore17"
-                ><AiOutlineGithub /></Icon>
+                ><AiOutlineGithub size={60} /></Icon>
                 <Icon link="https://twitter.com/claire_cashmore"
                 text="twitter.com/claire_cashmore"
-                ><FaTwitter /></Icon>
+                ><FaTwitter size={60} /></Icon>
                 <Icon link="https://www.instagram.com/claire_cashmore17/"
                 text="instagram.com/claire_cashmore17"
-                ><FaInstagram /></Icon>
+                ><FaInstagram size={60} /></Icon>
             </ul>
         </section>
     );

@@ -1,2 +1,14 @@
 @import '../../variables';
 @import '../../mixins';
+
+.contactList li a {
+    font-size: 1.75rem;
+    line-height: 80px;
+    color: $themePewterBlue;
+    display: block;
+    font-style: italic;
+}
+
+.reactIcon {
+    padding-right: 25px;
+}
