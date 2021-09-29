@@ -18,7 +18,7 @@ const Resume = () => {
 
                 Ready to take on the challenges the world has presented.</p>
 
-                <a id="resumeDownload" href="https://clairecashmore17.github.io/Portfolio/Resume.pdf" download>
+                <a id="resumeDownload" target="_blank" rel="noreferrer" href="https://clairecashmore17.github.io/Portfolio/Resume.pdf" download>
                     <span id="downloadIcon"><MdFileDownload size={25}/></span>
                     Download Resume as a PDF
                 </a>
