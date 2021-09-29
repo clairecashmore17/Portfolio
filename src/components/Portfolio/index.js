@@ -7,6 +7,8 @@ const Portfolio = () => {
     return (
         <section id="portfolio">
             <h2 className="title">Portfolio</h2>
+
+            <article className="projectContainer">
             {projects.map((projects) => (
                 <Project
                     projectName = {projects.projectName}
@@ -15,6 +17,7 @@ const Portfolio = () => {
                     github = {projects.github}
                 />
             ))}
+            </article>
         </section>
     );
 }

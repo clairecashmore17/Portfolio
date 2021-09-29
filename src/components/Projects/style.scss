@@ -1,2 +1,14 @@
 @import '../../variables';
 @import '../../mixins';
+
+.project {
+    flex: 1 0 30%;
+}
+
+.project a {
+    color: inherit;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

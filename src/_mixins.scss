@@ -13,7 +13,17 @@
     color: $themePewterBlue;
 }
 
-@mixin setSectionTitle() {
+@mixin setSectionTitle {
     font-size: $sectionTitleSize;
     padding-bottom: $sectionTitleSpacing;
+}
+
+@mixin projectFlexProperties {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.25rem;
 }
