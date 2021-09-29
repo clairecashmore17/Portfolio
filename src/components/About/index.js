@@ -1,15 +1,12 @@
 import React from 'react';
 import './style.scss'
-import { generateCustomPlaceholderURL } from 'react-placeholder-image';
 
 const About = () => {
-    const imagePlaceholder = generateCustomPlaceholderURL(300, 300);
-
     return (
         <section id="about">
             <h2 className="title">About Me</h2>
 
-            <img src={imagePlaceholder} alt="Claire Cashmore" />
+            <img src="https://clairecashmore17.github.io/Portfolio/images/claire-profile.jpeg" alt="Claire Cashmore" />
 
             <p id="about-me">
                 I am a recent graduate with B.S. in Computer Engineering from Embry Riddle Aeronautical University. I have played soccer for 18 years including 4 at a collegiate level. Being athletic is a huge part of my life despite my love for sitting behind a screen.<br /><br />
