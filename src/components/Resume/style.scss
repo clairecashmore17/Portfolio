@@ -1,8 +1,44 @@
 @import '../../variables';
 @import '../../mixins';
 
-.languageIcon {
-    width: 100px;
-    height: auto;
-    margin: 20px;
+#resume {
+    @include sectionTopSpacing();
+    @include setSectionBackground();
+    
+    line-height: 2rem;
+}
+
+#resume h2 {
+    @include setSectionTitle();
+}
+
+#resume p {
+    font-size: 1.25rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sectionTitles {
+    font-size: 2rem;
+    @include sectionTopSpacing();
+}
+
+.resumeSection {
+    padding-bottom: $resumeSectionBottom;
+}
+
+.languages {
+    @include resumeColorChange();
+}
+
+#resumeDownload {
+    font-size: 20px;
+}
+
+#downloadIcon {
+    margin-right: 15px;
+}
+
+#communityService {
+    @include resumeColorChange();
 }

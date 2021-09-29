@@ -27,3 +27,8 @@
     margin-right: 10%;
     font-size: 1.25rem;
 }
+
+@mixin resumeColorChange {
+    background-color: $themePurpleNavy;
+    padding-bottom: $resumeSectionBottom;
+}
