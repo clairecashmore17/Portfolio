@@ -8,7 +8,7 @@ const Header = (props) => {
             <h1 id="name">Claire Cashmore</h1>
 
             <div id="img-container">
-                <img src="%PUBLIC_URL%/images/soccer.jpeg" alt="soccer ball on a field" />
+                <img src="https://clairecashmore17.github.io/Portfolio/images/soccer.jpeg" alt="soccer ball on a field" />
             </div>
         </header>
     );

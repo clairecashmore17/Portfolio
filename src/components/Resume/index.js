@@ -29,23 +29,23 @@ const Resume = () => {
 
                 <div id="languageIcons">
                     <Languages name="c"
-                    imageLink="%PUBLIC_URL%/images/c.png"
+                    imageLink="https://clairecashmore17.github.io/Portfolio/images/c.png"
                     />
                     
                     <Languages name="cpp"
-                    imageLink="%PUBLIC_URL%/images/cpp.png"
+                    imageLink="https://clairecashmore17.github.io/Portfolio/images/cpp.png"
                     />
 
                     <Languages name="csharp"
-                    imageLink="%PUBLIC_URL%/images/csharp.png"
+                    imageLink="https://clairecashmore17.github.io/Portfolio/images/csharp.png"
                     />
 
                     <Languages name="javascript"
-                    imageLink="%PUBLIC_URL%/images/javascript.png"
+                    imageLink="https://clairecashmore17.github.io/Portfolio/images/javascript.png"
                     />
 
                     <Languages name="python"
-                    imageLink="%PUBLIC_URL%/images/python.png"
+                    imageLink="https://clairecashmore17.github.io/Portfolio/images/python.png"
                     />
                 </div>
             </article>
