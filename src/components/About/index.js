@@ -3,7 +3,7 @@ import './style.scss'
 import { generateCustomPlaceholderURL } from 'react-placeholder-image';
 
 const About = () => {
-    const imagePlaceholder = generateCustomPlaceholderURL(400, 400);
+    const imagePlaceholder = generateCustomPlaceholderURL(300, 300);
 
     return (
         <section id="about">

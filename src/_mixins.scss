@@ -10,4 +10,10 @@
 
 @mixin setSectionBackground {
     background-color: $themeRussianViolet;
+    color: $themePewterBlue;
+}
+
+@mixin setSectionTitle() {
+    font-size: $sectionTitleSize;
+    padding-bottom: $sectionTitleSpacing;
 }

@@ -4,10 +4,8 @@
 #contact {
     @include setSectionBackground();
     @include sectionTopSpacing();
-    color: $themePewterBlue;
 }
 
 #contact h2 {
-    font-size: $sectionTitleSize;
-    padding-bottom: $sectionTitleSpacing;
+    @include setSectionTitle();
 }
