@@ -18,6 +18,14 @@
     padding-right: 10%;
 }
 
+#resume a {
+    color: inherit;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .sectionTitles {
     font-size: 2rem;
     @include sectionTopSpacing();
