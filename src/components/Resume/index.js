@@ -18,7 +18,7 @@ const Resume = () => {
 
                 Ready to take on the challenges the world has presented.</p>
 
-                <a id="resumeDownload" download>
+                <a id="resumeDownload" href="https://clairecashmore17.github.io/Portfolio/Resume.pdf" download>
                     <span id="downloadIcon"><MdFileDownload size={25}/></span>
                     Download Resume as a PDF
                 </a>
@@ -71,7 +71,7 @@ const Resume = () => {
 
                 <WorkHistory jobtitle="Creator and Lead Event Organizer of Annual Food Center Fundraiser"
                 employer="Flagstaff"
-                timeframe="ENTER AMOUNT OF YEARS"
+                timeframe="2017 to Present"
                 description="Creator of Flagstaff Walks Together community service project involving a walk around Buffalo Park to raise money for the Family Food Center."
                 />
             </article>
