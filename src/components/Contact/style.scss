@@ -1,0 +1,11 @@
+@import '../../variables';
+@import '../../mixins';
+
+#contact {
+    @include setSectionBackground();
+    @include sectionTopSpacing();
+}
+
+#contact h2 {
+    @include setSectionTitle();
+}

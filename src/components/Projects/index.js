@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 import { generateCustomPlaceholderURL } from 'react-placeholder-image';
 
 const Project = (props) => {

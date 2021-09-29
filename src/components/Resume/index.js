@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 import WorkHistory from '../WorkHistory';
 import Languages from '../Languages';
 import { MdFileDownload } from 'react-icons/md';
@@ -9,15 +10,21 @@ const Resume = () => {
             <h2 className="title">Resume</h2>
 
             <article className="resumeSection">
-                <p>Client summary statement/elevator pitch</p>
+                <p>Recently graduated with B.S. in Computer Engineering from Embry Riddle Aeronautical University, seeking a position in the software industry. Possess a large interest in the gaming and/or graphic development specifically.<br /><br />
+
+                Proficient with C/C++ but have worked with python, C#, and javascript. Always looking for a new opportunity to learn and become experienced in any language.<br /><br />
+
+                Experienced coursework such as Data Structures and Algorithms, Software Engineering Practices, Discrete Math Structures, and Microprocessors.<br /><br />
+
+                Ready to take on the challenges the world has presented.</p>
+
+                <a id="resumeDownload" download>
+                    <span id="downloadIcon"><MdFileDownload size={25}/></span>
+                    Download Resume as a PDF
+                </a>
             </article>
 
-            <a id="resumeDownload" download>
-                <MdFileDownload />
-                Download Resume as a PDF
-            </a>
-
-            <article className="Languages">
+            <article className="languages resumeSection">
                 <h3 className="sectionTitles">Programming Languages</h3>
 
                 <div id="languageIcons">
@@ -38,7 +45,7 @@ const Resume = () => {
                     />
 
                     <Languages name="python"
-                    imageLink="../images/javascript.png"
+                    imageLink="../images/python.png"
                     />
                 </div>
             </article>
@@ -59,16 +66,24 @@ const Resume = () => {
                 />
             </article>
 
-            <article className="resumeSection">
+            <article className="resumeSection" id="communityService">
                 <h3 className="sectionTitles">Community Service</h3>
 
                 <WorkHistory jobtitle="Creator and Lead Event Organizer of Annual Food Center Fundraiser"
+                employer="Flagstaff"
+                timeframe="ENTER AMOUNT OF YEARS"
                 description="Creator of Flagstaff Walks Together community service project involving a walk around Buffalo Park to raise money for the Family Food Center."
                 />
             </article>
 
             <article className="resumeSection">
                 <h3 className="sectionTitles">Education</h3>
+
+                <WorkHistory jobtitle="Embry Riddle Aeronautical University"
+                employer="B.S. Computer Engineering"
+                timeframe="2017 to 2021"
+                description="Accomplishments: Dean's List, Chancellor Scholarship, Arizona Scholars, Women of Excellence Award, Women's Soccer Athletic Grant"
+                />
             </article>
         </section>
     );

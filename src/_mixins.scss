@@ -1,0 +1,34 @@
+@mixin sectionTopSpacing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@mixin setMarginPadding {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin setSectionBackground {
+    background-color: $themeRussianViolet;
+    color: $themePewterBlue;
+}
+
+@mixin setSectionTitle {
+    font-size: $sectionTitleSize;
+    padding-bottom: $sectionTitleSpacing;
+}
+
+@mixin projectFlexProperties {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.25rem;
+}
+
+@mixin resumeColorChange {
+    background-color: $themePurpleNavy;
+    padding-bottom: $resumeSectionBottom;
+}
