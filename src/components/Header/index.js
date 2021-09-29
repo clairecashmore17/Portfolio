@@ -6,6 +6,10 @@ const Header = (props) => {
         <header>
             {props.children}
             <h1 id="name">Claire Cashmore</h1>
+
+            <div id="img-container">
+                <img src="../images/soccer.jpeg" />
+            </div>
         </header>
     );
 }
