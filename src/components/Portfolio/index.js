@@ -9,14 +9,14 @@ const Portfolio = () => {
             <h2 className="title">Portfolio</h2>
 
             <article className="projectContainer">
-            {projects.map((projects) => (
-                <Project
-                    projectName = {projects.projectName}
-                    tech = {projects.tech}
-                    deployment = {projects.deployment}
-                    github = {projects.github}
-                />
-            ))}
+                {projects.map((projects) => (
+                    <Project
+                        projectName = {projects.projectName}
+                        tech = {projects.tech}
+                        deployment = {projects.deployment}
+                        github = {projects.github}
+                    />
+                ))}
             </article>
         </section>
     );

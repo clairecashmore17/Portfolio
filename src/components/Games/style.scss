@@ -1,2 +1,15 @@
 @import '../../variables';
 @import '../../mixins';
+
+#games {
+    @include sectionTopSpacing();
+    @include setSectionBackground();
+}
+
+#games h2 {
+    @include setSectionTitle();
+}
+
+.gamesContainer {
+    @include projectFlexProperties();
+}
