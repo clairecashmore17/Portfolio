@@ -31,7 +31,7 @@
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/clairecashmore17/SnakeGame.git
+    git clone https://github.com/clairecashmore17/Portfolio.git
     ```
 2. Install Dependencies
     ```sh
