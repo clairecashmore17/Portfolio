@@ -1,96 +1,61 @@
-# Portfolio
-## README 
+<p align="center">
+    <h1 align="center">Snake</h1>
+    <p align="center">A snake game developed using C++.</p>
+</p>
 
-For a portfolio, I would aim for a fairly simple layout. Classic about me section, a tab for my "games" and then a tab
-"projects", a tab for a resume, and a contact tab. The games would include the CS225 final project, snakegame, and ZombieGameCourse.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Color Scheme:
-I tend to lean towards dark greys in my designs. But also dark royal purples seem to add a nice tone to things. I generally
-tend to avoid colored text unless used in a warning sense.
+## Table of Contents
 
-### About Me:
+<ol>
+    <li><a href="#about-the-project">About</a></li>
+    <li><a href="#languages-and-libraries-used">Languages & Libraries</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#author">Author</a></li>
+</ol>
 
-I am a recent graduate with B.S. in Computer Engineering from Embry Riddle Aeronautical University. I have played soccer for 18 years including 4 at a collegiate level. Being athletic is a huge part of my life despite my love for sitting behind a screen.
+## About the Project
 
-I plan to attend George Washington University to attain my masters in Computer Science specializing in Computer Graphics, animation, and multimedia. I have a large interest in the gaming and/or graphic development specifically.
+![PortfolioScreenshot](https://clairecashmore17.github.io/Portfolio/images/clairePortfolio.PNG)<br />
+[Deployment](https://clairecashmore17.github.io/Portfolio/)
 
-Proficient with C/C++ but have worked with python, C#, and javascript. Always looking for a new opportunity to learn and become experienced in any language.
+## Languages and Libraries Used
 
-Experienced coursework such as Data Structures and Algorithms, Software Engineering Practices, Discrete Math Structures, and Microprocessors.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-Ready to take on the challenges the world has presented.
+## Installation
 
+1. Clone the repo
+    ```sh
+    git clone https://github.com/clairecashmore17/SnakeGame.git
+    ```
+2. Install Dependencies
+    ```sh
+    npm i
+    ```
+3. Run the application
+    ```sh
+    npm start
+    ```
 
-### Games:
+## License
 
-Zombie FPS: Still in progress
+Copyright 2021 Rhys Wright
 
-Snake Game (C++)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Rooms (C++)
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-
-### Projects:
-
-InsertInQueue
-
-Traverse BinaryTree
-
-
-
-### Resume Tab:
-
- Resume Summary:
- I am a recent graduate from Embry Riddle Aeronautical University with a bachelors degree in Computer Engineering. I have worked closely with C and C++ programming, but have used python, C#, and javascript on personal projects. I partook in elective classes like software engineering, data structures and algorithms, and an online unity Udemy course in order to enhance my knowledge of software. I spent a large majority of my life balancing soccer with academics including a collegiate career of 4 years in college. It taught me multiple life skills including communication, leadership, organization, and teamwork. I am currently employed as a DoorDash driver and a SoccerShots coach. I also participated in multiple volunteer events with a group known as Girls for Good, leading to my own event called Flagstaff Walks Together in which people walked and participated in activities to raise money for the Family Food Center of Flagstaff. I will be attending George Washington Unviersity to recieve my masters in Computer Science witha  focus in graphics, animation, and multimedia.
-
-Skills & Abilities 
-
-OFFICIAL FOOD DELIVERY SERVICE DRIVER- DOORDASH (January 2021- Present) 
-
-Self-dedicated employment involving quality service customer abilities, care with product, communication with multiple businesses for orders, and importance in punctual timing to deliver a product. 
-
-SOCCER SHOTS COACH (SEPTEMBER 2021- Present) 
-
-Using leadership, organizational skills, and communication skills to develop basic soccer skills in children ready to take the first step towards a career in sports. A good showcase of quick thinking as well as patience when working with both children and parents. 
-
-COMMUNITY SERVICE 
-
-CREATOR AND LEAD EVENT ORGANIZER OF ANNUAL FOOD CENTER FUNDRAISER 
-
-Creator of Flagstaff walks Together community service project involving a walk around Buffalo Park to raise money for the Family Food Center. 
-
-COMPUTER LANGUAGES 
-
-C PROGRAMMING 
-
-C++ 
-
-PYTHON 
-
-JAVASCRIPT 
-
-C# 
-
-ATHLETICS 
-
-EMBRY RIDDLE WOMEN’S SOCCER TEAM (2017 – 2021) 
-
-Women’s Soccer Athletic Grant 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-GRAPHICS DESIGN PORTFOLIO 
 
-https://clairecashmore.weebly.com/gallery.html 
+## Author
 
-TWINE GAME DEVELOPMENT 
+Please feel free to reach out to me with any questions, recommendations, or other inquiries.
 
-Creator of multiple “butterfly effect”, story-based games through the use of Twine. 
-
-
-### Contact:
-
-email: clairecashmore2017@gmail.com
-linkedin: https://www.linkedin.com/in/claire-cashmore/
-github: clairecashmore17
-instagram: claire_cashmore17
-twitter: @claire_cashmore
+Rhys Wright - [GitHub](https://github.com/fikcup/) - rhys.n.wright@gmail.com
