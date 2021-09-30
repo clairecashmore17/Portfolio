@@ -1,6 +1,11 @@
 @import '../../variables';
 @import '../../mixins';
 
+.workHistory {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .workHistory h4 {
     font-size: 1.25rem;
 }
