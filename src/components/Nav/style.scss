@@ -28,7 +28,12 @@ nav li {
 }
 
 @media screen and (max-width: 900px) {
-    nav li {
+    nav {
+        position: relative;
+    }
+
+    nav ul,
+    nav ul li {
         float: none;
     }
 }
