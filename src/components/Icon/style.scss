@@ -7,6 +7,10 @@
     color: $themePewterBlue;
     display: block;
     font-style: italic;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .reactIcon {
