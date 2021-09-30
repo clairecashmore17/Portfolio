@@ -1,6 +1,6 @@
 <p align="center">
-    <h1 align="center">Snake</h1>
-    <p align="center">A snake game developed using C++.</p>
+    <h1 align="center">Portfolio</h1>
+    <p align="center">A portfolio displaying Claire Cashmore's projects and games.</p>
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -17,7 +17,7 @@
 
 ## About the Project
 
-![PortfolioScreenshot](https://clairecashmore17.github.io/Portfolio/images/clairePortfolio.PNG)<br />
+![PortfolioScreenshot](./public/images/clairePortfolio.PNG)<br />
 [Deployment](https://clairecashmore17.github.io/Portfolio/)
 
 ## Languages and Libraries Used
