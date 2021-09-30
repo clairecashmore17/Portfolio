@@ -1,17 +1,14 @@
 import React from 'react';
 import './style.scss';
-import { generateCustomPlaceholderURL } from 'react-placeholder-image';
 
 const Project = (props) => {
-    const imagePlaceholder = generateCustomPlaceholderURL(200, 200);
-
     return (
         <article className="project">
             <a target="_blank" 
             rel="noreferrer" 
             href={props.deployment}
             >
-                <img className="project-img" src={imagePlaceholder} alt={props.projectName} />
+                <img className="project-img" src={props.img} alt={props.projectName} />
                 <h3>{props.projectName}</h3>
             </a>
             <h4>

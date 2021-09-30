@@ -15,6 +15,7 @@ const Games = () => {
                         tech = {games.tech}
                         deployment = {games.deployment}
                         github = {games.github}
+                        img = {games.img}
                     />
                 ))}
             </article>

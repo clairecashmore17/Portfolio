@@ -3,21 +3,24 @@
         "id": "1",
         "projectName": "Snake",
         "tech": "C++",
-        "deployment": "https://example.com",
-        "github": "https://github.com/clairecashmore17/SnakeGame"
+        "deployment": "https://www.youtube.com/watch?v=vpQgBLBPuBY",
+        "github": "https://github.com/clairecashmore17/SnakeGame",
+        "img": "https://clairecashmore17.github.io/Portfolio/images/project-imgs/Snake.PNG"
     },
     {
         "id": "2",
         "projectName": "Rooms",
         "tech": "C++",
-        "deployment": "https://example.com",
-        "github": "https://github.com/clairecashmore17/CS225"
+        "deployment": "https://www.youtube.com/watch?v=cdOhwAPzUbc",
+        "github": "https://github.com/clairecashmore17/CS225",
+        "img": "https://clairecashmore17.github.io/Portfolio/images/project-imgs/Rooms.png"
     },
     {
         "id": "2",
         "projectName": "Zombie FPS",
         "tech": "C#, Unity",
-        "deployment": "https://example.com",
-        "github": "https://github.com/clairecashmore17/ZombieGameCourse"
+        "deployment": "https://www.youtube.com/watch?v=Ffh55eh38J0",
+        "github": "https://github.com/clairecashmore17/ZombieGameCourse",
+        "img": "https://clairecashmore17.github.io/Portfolio/images/project-imgs/ZombieFPS.png"
     }
 ]

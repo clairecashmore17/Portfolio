@@ -3,14 +3,16 @@
         "id": "1",
         "projectName": "Insert In Queue",
         "tech": "C",
-        "deployment": "https://example.com",
-        "github": "https://github.com/clairecashmore17/InsertInQueue.c"
+        "deployment": "https://www.youtube.com/watch?v=Wn5E4NO5dKs",
+        "github": "https://github.com/clairecashmore17/InsertInQueue.c",
+        "img": "https://clairecashmore17.github.io/Portfolio/images/project-imgs/InsertIntoQueue.png"
     },
     {
         "id": "2",
         "projectName": "Traverse Binary Tree",
         "tech": "C",
-        "deployment": "https://example.com",
-        "github": "https://github.com/clairecashmore17/TraverseBinaryTree"
+        "deployment": "https://www.youtube.com/watch?v=DurKmu3l7ZI",
+        "github": "https://github.com/clairecashmore17/TraverseBinaryTree",
+        "img": "https://clairecashmore17.github.io/Portfolio/images/project-imgs/TraverseBinaryTree.png"
     }
 ]

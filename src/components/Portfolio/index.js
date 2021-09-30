@@ -15,6 +15,7 @@ const Portfolio = () => {
                         tech = {projects.tech}
                         deployment = {projects.deployment}
                         github = {projects.github}
+                        img = {projects.img}
                     />
                 ))}
             </article>
