@@ -12,11 +12,12 @@ nav {
 nav ul {
     @include setMarginPadding();
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
     float: right;
 }
 
 nav li {
-    float: left;
     padding: 20px 35px;
     display: block;
     color: $themePewterBlue;
@@ -32,8 +33,12 @@ nav li {
         position: relative;
     }
 
-    nav ul,
-    nav ul li {
+    nav ul {
+        flex-direction: column;
         float: none;
+    }
+
+    nav li {
+        justify-content: center;
     }
 }
